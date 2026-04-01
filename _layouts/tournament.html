@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+
+<div class="content-grid{% if page.sidebar_position == 'left' %} sidebar-left{% endif %}">
+
+  <!-- Main Content -->
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar{% if page.sidebar_sticky %} sidebar-sticky{% elsif page.sidebar_bidirectional %} sidebar-bidirectional{% endif %}">
+    {{ page.sidebar_content }}
+  </aside>
+
+</div>
+
+{% if page.extra_js %}
+  {% for js_file in page.extra_js %}
+<script src="{{ js_file | relative_url }}"></script>
+  {% endfor %}
+{% endif %}

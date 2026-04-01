@@ -1,0 +1,33 @@
+- title: About
+  url: /about/
+- title: Overview
+  url: /overview/
+- title: 2026
+  url: /2026/
+  children:
+    - title: Men's Six Nations
+      url: /2026/m6n/
+    - children:
+        - title: Round 1
+          url: /2026/m6n/r1/
+        - title: Round 2
+          url: /2026/m6n/r2/
+        - title: Round 3
+          url: /2026/m6n/r3/
+        - title: Round 4  
+          url: /2026/m6n/r4/
+        - title: Round 5
+          url: /2026/m6n/r5/
+#    - title: Women's Six Nations
+#      url: /2026/w6n/
+#    - children:
+#        - title: Round 1
+#          url: /2026/w6n/r1/
+#        - title: Round 2
+#          url: /2026/w6n/r2/
+#        - title: Round 3
+#          url: /2026/w6n/r3/
+#        - title: Round 4  
+#          url: /2026/w6n/r4/
+#        - title: Round 5
+#          url: /2026/w6n/r5/

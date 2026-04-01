@@ -1,0 +1,52 @@
+// -----------------------------------------------------------------------------
+// 1. Brand Palette
+// -----------------------------------------------------------------------------
+$primary-blue: #003366; // Classic Rugby Blue
+$accent-gold:  #ffcc00; // Rugby Gold
+$white:        #ffffff;
+$black:        #000000;
+
+// -----------------------------------------------------------------------------
+// 2. Semantic UI Colors
+// -----------------------------------------------------------------------------
+$text-dark:    #333333;
+$text-muted:   #666666;
+$border-color: #dddddd;
+$bg-light:     #f8f9fa;
+
+// Birthday Paradox Specifics
+$paradox-bg:   #fff3cd; // The "Match" highlight color (Soft Yellow)
+$paradox-text: #856404; // High-contrast text for matches
+
+// -----------------------------------------------------------------------------
+// 3. Navigation & Layout (Matches your new Nav component)
+// -----------------------------------------------------------------------------
+$nav-bg:          $primary-blue;
+$nav-text:        $white;
+$nav-hover:       $accent-gold;
+$nav-height:      70px;
+$dropdown-bg:     lighten($primary-blue, 5%);
+$sub-dropdown-bg: lighten($primary-blue, 10%);
+
+$container-width: 1100px;
+$breakpoint:      768px;
+
+// -----------------------------------------------------------------------------
+// 4. Typography
+// -----------------------------------------------------------------------------
+$font-main: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-weight-bold: 700;
+
+// -----------------------------------------------------------------------------
+// 5. CSS Variable Export (Optional)
+// -----------------------------------------------------------------------------
+// We export these so you can still use var(--primary-blue) in your 
+// browser inspector or if you add any plain CSS files later.
+:root {
+  --primary-blue: #{$primary-blue};
+  --accent-gold:  #{$accent-gold};
+  --paradox-bg:   #{$paradox-bg};
+  --text-dark:    #{$text-dark};
+  --border-color: #{$border-color};
+  --font-main:    #{$font-main};
+}

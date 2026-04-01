@@ -1,0 +1,12 @@
+<header class="page-header">
+  <div class="container">
+    {% if page.breadcrumb != false %}
+      {% include breadcrumb.html %}
+    {% endif %}
+    {% if page.description != nil %}
+      <h1>{{ page.description }}</h1>
+    {% else %}
+      <h1>{{ page.title }}</h1>
+    {% endif %}
+  </div>
+</header>

@@ -1,0 +1,10 @@
+---
+# Main stylesheet - Jekyll will compile this to main.css
+---
+
+// Order matters: variables first, then base styles, then components, then overrides
+
+@use 'variables';
+@use 'base';
+@use 'navigation';
+@use 'components/overview'

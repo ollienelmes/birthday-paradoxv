@@ -1,0 +1,57 @@
+{% assign results = site.data.results.matches %}
+{% assign total_teams = 0 %}
+{% assign teams_with_matches = 0 %}
+{% assign total_paradoxes_found = 0 %}
+
+{% comment %} Loop through all matches and filter based on parameters {% endcomment %}
+{% for match in results %}
+  
+  {% comment %} Logic: If include.year is present, match.date must contain it. If tournament is present, it must match. {% endcomment %}
+  {% assign year_string = include.year | append: "" %}
+  {% if include.year == nil or match.date contains year_string %}
+    {% if include.tournament == nil or match.tournament == include.tournament %}
+      
+      {% assign total_teams = total_teams | plus: 2 %}
+
+      {% if match.home_matches > 0 %}
+        {% assign teams_with_matches = teams_with_matches | plus: 1 %}
+        {% assign total_paradoxes_found = total_paradoxes_found | plus: match.home_matches %}
+      {% endif %}
+
+      {% if match.away_matches > 0 %}
+        {% assign teams_with_matches = teams_with_matches | plus: 1 %}
+        {% assign total_paradoxes_found = total_paradoxes_found | plus: match.away_matches %}
+      {% endif %}
+
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} Handle case where no data matches filters to avoid dividing by zero {% endcomment %}
+{% if total_teams > 0 %}
+  {% assign percentage = teams_with_matches | times: 100.0 | divided_by: total_teams | round: 1 %}
+{% else %}
+  {% assign percentage = 0 %}
+{% endif %}
+
+<section class="overview-dashboard">
+  <div class="stats-grid">
+    <div class="stat-card highlight">
+      <span class="stat-value">{{ percentage }}%</span>
+      <span class="stat-label">Teams with a Shared Birthday</span>
+      <div class="stat-meta">Expected Percentage: 50.7%</div>
+    </div>
+
+    <div class="stat-card">
+      <span class="stat-value">{{ total_paradoxes_found }}</span>
+      <span class="stat-label">Total Shared Birthdays</span>
+      <span class="stat-meta">Across {{ total_teams | divided_by: 2 }} Matches</span>
+    </div>
+
+    <div class="stat-card">
+      <span class="stat-value">{{ teams_with_matches }} / {{ total_teams }}</span>
+      <span class="stat-label">Sample Size</span>
+      <span class="stat-meta">Individual 23-player squads</span>
+    </div>
+  </div>
+</section>

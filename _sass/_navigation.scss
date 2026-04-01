@@ -1,0 +1,235 @@
+// 1. Navigation Variables
+$nav-bg: #003366;      // Rugby Blue
+$nav-text: #ffffff;
+$nav-hover: #ffcc00;   // Rugby Gold
+$dropdown-bg: lighten($nav-bg, 5%);
+$sub-dropdown-bg: lighten($nav-bg, 10%);
+$nav-height: 70px;
+$breakpoint: 768px;
+
+// Skip Link Specifics
+$skip-bg: $nav-hover; 
+$skip-text: #000;
+
+// 2. Accessibility: Skip Link
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: $skip-bg;
+  color: $skip-text;
+  padding: 10px 20px;
+  z-index: 2000; // Above site-nav
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0 0 5px 5px;
+  transition: top 0.3s ease;
+
+  &:focus {
+    top: 0;
+    outline: 3px solid white;
+  }
+}
+
+// 3. Main Wrapper
+.site-nav {
+  background: $nav-bg;
+  color: $nav-text;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: $nav-height;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
+// 4. Logo Section (Updated for Visibility)
+.nav-logo {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  background: white;        // Creates contrast for dark blue logo text
+  border-radius: 4px;
+  height: 50px;
+  text-decoration: none;    // Ensures no link underline on the logo bubble
+  
+  img {
+    height: 40px;           // Adjusted to fit comfortably in the 50px container
+    width: auto;
+    display: block;
+  }
+
+  &:hover {
+    opacity: 0.9;           // Subtle feedback on hover
+  }
+}
+
+// 5. Menu Structure & Desktop Dropdowns
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  a {
+    color: $nav-text;
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+    line-height: $nav-height;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    white-space: nowrap;
+
+    &:hover {
+      color: $nav-hover;
+      background: rgba(255, 255, 255, 0.05);
+    }
+  }
+
+  .has-dropdown {
+    position: relative;
+
+    & > a::after {
+      content: ' ▼';
+      font-size: 0.7rem;
+      vertical-align: middle;
+      opacity: 0.7;
+    }
+
+    &:hover > .dropdown {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .dropdown.level-1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: $dropdown-bg;
+    min-width: 220px;
+    list-style: none;
+    padding: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+
+    a {
+      line-height: 50px;
+      padding: 0 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  .dropdown.level-2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: $sub-dropdown-bg;
+    min-width: 200px;
+    list-style: none;
+    padding: 0;
+    border-left: 3px solid $nav-hover;
+
+    & > a::after {
+      content: ' ▶';
+    }
+  }
+}
+
+// 6. Mobile Toggle
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+
+  span,
+  span::before,
+  span::after {
+    display: block;
+    background: white;
+    height: 2px;
+    width: 25px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  span::before { content: ''; position: absolute; top: 8px; }
+  span::after { content: ''; position: absolute; top: -8px; }
+}
+
+// 7. Responsive Logic
+@media screen and (max-width: $breakpoint) {
+  .nav-toggle-label {
+    display: block;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: $nav-height;
+    left: 0;
+    width: 100%;
+    background: $nav-bg;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    a {
+      line-height: 60px;
+      width: 100%;
+    }
+  }
+
+  .nav-toggle:checked ~ .nav-menu {
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .nav-toggle:checked ~ .nav-toggle-label span {
+    background: transparent;
+    &::before { transform: rotate(45deg); top: 0; }
+    &::after { transform: rotate(-45deg); top: 0; }
+  }
+
+  .nav-menu .dropdown.level-1,
+  .nav-menu .dropdown.level-2 {
+    position: static;
+    display: block; 
+    width: 100%;
+    box-shadow: none;
+    border-left: none;
+    background: rgba(0, 0, 0, 0.15);
+
+    a {
+      font-weight: normal;
+      padding-left: 40px;
+      font-size: 0.95rem;
+    }
+  }
+
+  .nav-menu .dropdown.level-2 a {
+    padding-left: 60px;
+    font-size: 0.85rem;
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-menu .has-dropdown > a::after {
+    display: none;
+  }
+}

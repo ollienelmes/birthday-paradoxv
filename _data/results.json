@@ -1,0 +1,140 @@
+{
+    "year" : 2026,
+    "matches": [
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_1",
+            "date"          : "2026-02-05",
+            "home_team"     : "FRA",
+            "away_team"     : "IRE",
+            "home_matches"    : 0,
+            "away_matches"    : 1
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_1",
+            "date"          : "2026-02-06",
+            "home_team"     : "ENG",
+            "away_team"     : "WAL",
+            "home_matches"    : 0,
+            "away_matches"    : 0
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_1",
+            "date"          : "2026-02-07",
+            "home_team"     : "ITA",
+            "away_team"     : "SCO",
+            "home_matches"    : 1,
+            "away_matches"    : 0
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_2",
+            "date"          : "2026-02-14",
+            "home_team"     : "IRE",
+            "away_team"     : "ITA",
+            "home_matches"    : 0,
+            "away_matches"    : 1
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_2",
+            "date"          : "2026-02-14",
+            "home_team"     : "SCO",
+            "away_team"     : "ENG",
+            "home_matches"    : 0,
+            "away_matches"    : 1
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_2",
+            "date"          : "2026-02-15",
+            "home_team"     : "WAL",
+            "away_team"     : "FRA",
+            "home_matches"    : 1,
+            "away_matches"    : 0
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_3",
+            "date"          : "2026-02-21",
+            "home_team"     : "ENG",
+            "away_team"     : "IRE",
+            "home_matches"    : 0,
+            "away_matches"    : 1
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_3",
+            "date"          : "2026-02-21",
+            "home_team"     : "WAL",
+            "away_team"     : "SCO",
+            "home_matches"    : 0,
+            "away_matches"    : 1
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_3",
+            "date"          : "2026-02-22",
+            "home_team"     : "FRA",
+            "away_team"     : "ITA",
+            "home_matches"    : 0,
+            "away_matches"    : 1
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_4",
+            "date"          : "2026-03-06",
+            "home_team"     : "IRE",
+            "away_team"     : "WAL",
+            "home_matches"    : 0,
+            "away_matches"    : 1
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_4",
+            "date"          : "2026-03-07",
+            "home_team"     : "SCO",
+            "away_team"     : "FRA",
+            "home_matches"    : 0,
+            "away_matches"    : 0
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_4",
+            "date"          : "2026-03-07",
+            "home_team"     : "ITA",
+            "away_team"     : "ENG",
+            "home_matches"    : 1,
+            "away_matches"    : 0
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_5",
+            "date"          : "2026-03-14",
+            "home_team"     : "WAL",
+            "away_team"     : "ITA",
+            "home_matches"    : 1,
+            "away_matches"    : 1
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_5",
+            "date"          : "2026-03-14",
+            "home_team"     : "IRE",
+            "away_team"     : "SCO",
+            "home_matches"    : 0,
+            "away_matches"    : 0
+        },
+        {
+            "tournament"    : "m6n",
+            "round"         : "round_5",
+            "date"          : "2026-03-14",
+            "home_team"     : "FRA",
+            "away_team"     : "ENG",
+            "home_matches"    : 0,
+            "away_matches"    : 2
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+  "tournament": "2026 Men's Six Nations",
+  "round": 2,
+  "date": "2026-02-14 to 2026-02-15",
+  "games": [
+    {
+      "home": "Ireland",
+      "away": "Italy",
+      "date": "2026-02-14",
+      "teams": [
+        {
+          "country": "Ireland",
+          "players": [
+            {"id": "M-IRE-01", "no": 1, "name": "Jeremy Loughman", "pos": "Prop", "status": "Starter"},
+            {"id": "M-IRE-02", "no": 2, "name": "Dan Sheehan", "pos": "Hooker", "status": "Starter"},
+            {"id": "M-IRE-03", "no": 3, "name": "Thomas Clarkson", "pos": "Prop", "status": "Starter"},
+            {"id": "M-IRE-04", "no": 4, "name": "Joe McCarthy", "pos": "Lock", "status": "Starter"},
+            {"id": "M-IRE-19", "no": 5, "name": "James Ryan", "pos": "Lock", "status": "Starter"},
+            {"id": "M-IRE-24", "no": 6, "name": "Cormac Izuchukwu", "pos": "Flanker", "status": "Starter"},
+            {"id": "M-IRE-08", "no": 7, "name": "Caelan Doris", "pos": "Flanker", "status": "Starter"},
+            {"id": "M-IRE-20", "no": 8, "name": "Jack Conan", "pos": "Number 8", "status": "Starter"},
+            {"id": "M-IRE-22", "no": 9, "name": "Craig Casey", "pos": "Scrum-half", "status": "Starter"},
+            {"id": "M-IRE-10", "no": 10, "name": "Sam Prendergast", "pos": "Fly-half", "status": "Starter"},
+            {"id": "M-IRE-25", "no": 11, "name": "James Lowe", "pos": "Wing", "status": "Starter"},
+            {"id": "M-IRE-12", "no": 12, "name": "Stuart McCloskey", "pos": "Centre", "status": "Starter"},
+            {"id": "M-IRE-13", "no": 13, "name": "Garry Ringrose", "pos": "Centre", "status": "Starter"},
+            {"id": "M-IRE-26", "no": 14, "name": "Robert Baloucoune", "pos": "Wing", "status": "Starter"},
+            {"id": "M-IRE-15", "no": 15, "name": "Jamie Osborne", "pos": "Fullback", "status": "Starter"},
+            {"id": "M-IRE-16", "no": 16, "name": "Rónan Kelleher", "pos": "Hooker", "status": "Replacement"},
+            {"id": "M-IRE-27", "no": 17, "name": "Tom O'Toole", "pos": "Prop", "status": "Replacement"},
+            {"id": "M-IRE-28", "no": 18, "name": "Tadhg Furlong", "pos": "Prop", "status": "Replacement"},
+            {"id": "M-IRE-29", "no": 19, "name": "Edwin Edogbo", "pos": "Lock", "status": "Replacement"},
+            {"id": "M-IRE-05", "no": 20, "name": "Tadhg Beirne", "pos": "Lock", "status": "Replacement"},
+            {"id": "M-IRE-21", "no": 21, "name": "Nick Timoney", "pos": "Flanker", "status": "Replacement"},
+            {"id": "M-IRE-09", "no": 22, "name": "Jamison Gibson-Park", "pos": "Scrum-half", "status": "Replacement"},
+            {"id": "M-IRE-23", "no": 23, "name": "Jack Crowley", "pos": "Fly-half", "status": "Replacement"}
+          ]
+        },
+        {
+          "country": "Italy",
+          "players": [
+            {"id": "M-ITA-01", "no": 1, "name": "Danilo Fischetti", "pos": "Prop", "status": "Starter"},
+            {"id": "M-ITA-02", "no": 2, "name": "Giacomo Nicotera", "pos": "Hooker", "status": "Starter"},
+            {"id": "M-ITA-03", "no": 3, "name": "Simone Ferrari", "pos": "Prop", "status": "Starter"},
+            {"id": "M-ITA-04", "no": 4, "name": "Niccolò Cannone", "pos": "Lock", "status": "Starter"},
+            {"id": "M-ITA-05", "no": 5, "name": "Andrea Zambonin", "pos": "Lock", "status": "Starter"},
+            {"id": "M-ITA-06", "no": 6, "name": "Michele Lamaro", "pos": "Flanker", "status": "Starter"},
+            {"id": "M-ITA-07", "no": 7, "name": "Manuel Zuliani", "pos": "Flanker", "status": "Starter"},
+            {"id": "M-ITA-08", "no": 8, "name": "Lorenzo Cannone", "pos": "Number 8", "status": "Starter"},
+            {"id": "M-ITA-09", "no": 9, "name": "Alessandro Fusco", "pos": "Scrum-half", "status": "Starter"},
+            {"id": "M-ITA-10", "no": 10, "name": "Paolo Garbisi", "pos": "Fly-half", "status": "Starter"},
+            {"id": "M-ITA-11", "no": 11, "name": "Monty Ioane", "pos": "Wing", "status": "Starter"},
+            {"id": "M-ITA-15", "no": 12, "name": "Leonardo Marin", "pos": "Centre", "status": "Starter"},
+            {"id": "M-ITA-12", "no": 13, "name": "Tommaso Menoncello", "pos": "Centre", "status": "Starter"},
+            {"id": "M-ITA-14", "no": 14, "name": "Louis Lynagh", "pos": "Wing", "status": "Starter"},
+            {"id": "M-ITA-23", "no": 15, "name": "Lorenzo Pani", "pos": "Fullback", "status": "Starter"},
+            {"id": "M-ITA-16", "no": 16, "name": "Tommaso Di Bartolomeo", "pos": "Hooker", "status": "Replacement"},
+            {"id": "M-ITA-17", "no": 17, "name": "Mirco Spagnolo", "pos": "Prop", "status": "Replacement"},
+            {"id": "M-ITA-18", "no": 18, "name": "Muhamed Hasa", "pos": "Prop", "status": "Replacement"},
+            {"id": "M-ITA-19", "no": 19, "name": "Federico Ruzza", "pos": "Lock", "status": "Replacement"},
+            {"id": "M-ITA-20", "no": 20, "name": "Riccardo Favretto", "pos": "Back Row", "status": "Replacement"},
+            {"id": "M-ITA-24", "no": 21, "name": "David Odiase", "pos": "Back Row", "status": "Replacement"},
+            {"id": "M-ITA-21", "no": 22, "name": "Alessandro Garbisi", "pos": "Scrum-half", "status": "Replacement"},
+            {"id": "M-ITA-25", "no": 23, "name": "Paolo Odogwu", "pos": "Wing", "status": "Replacement"}
+          ]
+        }
+      ]
+    },
+    {
+      "home": "Scotland",
+      "away": "England",
+      "date": "2026-02-14",
+      "teams": [
+        {
+          "country": "Scotland",
+          "players": [
+            {"id": "M-SCO-17", "no": 1, "name": "Nathan McBeth", "pos": "Prop", "status": "Starter"},
+            {"id": "M-SCO-16", "no": 2, "name": "George Turner", "pos": "Hooker", "status": "Starter"},
+            {"id": "M-SCO-03", "no": 3, "name": "Zander Fagerson", "pos": "Prop", "status": "Starter"},
+            {"id": "M-SCO-20", "no": 4, "name": "Gregor Brown", "pos": "Lock", "status": "Starter"},
+            {"id": "M-SCO-04", "no": 5, "name": "Scott Cummings", "pos": "Lock", "status": "Starter"},
+            {"id": "M-SCO-24", "no": 6, "name": "Jamie Ritchie", "pos": "Flanker", "status": "Starter"},
+            {"id": "M-SCO-07", "no": 7, "name": "Rory Darge", "pos": "Flanker", "status": "Starter"},
+            {"id": "M-SCO-08", "no": 8, "name": "Jack Dempsey", "pos": "Number 8", "status": "Starter"},
+            {"id": "M-SCO-09", "no": 9, "name": "Ben White", "pos": "Scrum-half", "status": "Starter"},
+            {"id": "M-SCO-10", "no": 10, "name": "Finn Russell", "pos": "Fly-half", "status": "Starter"},
+            {"id": "M-SCO-11", "no": 11, "name": "Jamie Dobie", "pos": "Wing", "status": "Starter"},
+            {"id": "M-SCO-12", "no": 12, "name": "Sione Tuipulotu", "pos": "Centre", "status": "Starter"},
+            {"id": "M-SCO-13", "no": 13, "name": "Huw Jones", "pos": "Centre", "status": "Starter"},
+            {"id": "M-SCO-14", "no": 14, "name": "Kyle Steyn", "pos": "Wing", "status": "Starter"},
+            {"id": "M-SCO-15", "no": 15, "name": "Tom Jordan", "pos": "Fullback", "status": "Starter"},
+            {"id": "M-SCO-25", "no": 16, "name": "Dave Cherry", "pos": "Hooker", "status": "Replacement"},
+            {"id": "M-SCO-01", "no": 17, "name": "Pierre Schoeman", "pos": "Prop", "status": "Replacement"},
+            {"id": "M-SCO-18", "no": 18, "name": "Elliot Millar-Mills", "pos": "Prop", "status": "Replacement"},
+            {"id": "M-SCO-19", "no": 19, "name": "Max Williamson", "pos": "Lock", "status": "Replacement"},
+            {"id": "M-SCO-06", "no": 20, "name": "Matt Fagerson", "pos": "Number 8", "status": "Replacement"},
+            {"id": "M-SCO-21", "no": 21, "name": "George Horne", "pos": "Scrum-half", "status": "Replacement"},
+            {"id": "M-SCO-22", "no": 22, "name": "Adam Hastings", "pos": "Fly-half", "status": "Replacement"},
+            {"id": "M-SCO-23", "no": 23, "name": "Darcy Graham", "pos": "Wing", "status": "Replacement"}
+          ]
+        },
+        {
+          "country": "England",
+          "players": [
+            {"id": "M-ENG-01", "no": 1, "name": "Ellis Genge", "pos": "Prop", "status": "Starter"},
+            {"id": "M-ENG-16", "no": 2, "name": "Luke Cowan-Dickie", "pos": "Hooker", "status": "Starter"},
+            {"id": "M-ENG-03", "no": 3, "name": "Joe Heyes", "pos": "Prop", "status": "Starter"},
+            {"id": "M-ENG-19", "no": 4, "name": "Maro Itoje", "pos": "Lock", "status": "Starter"},
+            {"id": "M-ENG-05", "no": 5, "name": "Ollie Chessum", "pos": "Lock", "status": "Starter"},
+            {"id": "M-ENG-06", "no": 6, "name": "Guy Pepper", "pos": "Flanker", "status": "Starter"},
+            {"id": "M-ENG-07", "no": 7, "name": "Sam Underhill", "pos": "Flanker", "status": "Starter"},
+            {"id": "M-ENG-08", "no": 8, "name": "Ben Earl", "pos": "Number 8", "status": "Starter"},
+            {"id": "M-ENG-09", "no": 9, "name": "Alex Mitchell", "pos": "Scrum-half", "status": "Starter"},
+            {"id": "M-ENG-10", "no": 10, "name": "George Ford", "pos": "Fly-half", "status": "Starter"},
+            {"id": "M-ENG-11", "no": 11, "name": "Henry Arundell", "pos": "Wing", "status": "Starter"},
+            {"id": "M-ENG-12", "no": 12, "name": "Fraser Dingwall", "pos": "Centre", "status": "Starter"},
+            {"id": "M-ENG-13", "no": 13, "name": "Tommy Freeman", "pos": "Centre", "status": "Starter"},
+            {"id": "M-ENG-24", "no": 14, "name": "Tom Roebuck", "pos": "Wing", "status": "Starter"},
+            {"id": "M-ENG-15", "no": 15, "name": "Freddie Steward", "pos": "Fullback", "status": "Starter"},
+            {"id": "M-ENG-02", "no": 16, "name": "Jamie George", "pos": "Hooker", "status": "Replacement"},
+            {"id": "M-ENG-17", "no": 17, "name": "Bevan Rodd", "pos": "Prop", "status": "Replacement"},
+            {"id": "M-ENG-18", "no": 18, "name": "Trevor Davison", "pos": "Prop", "status": "Replacement"},
+            {"id": "M-ENG-04", "no": 19, "name": "Alex Coles", "pos": "Lock", "status": "Replacement"},
+            {"id": "M-ENG-20", "no": 20, "name": "Tom Curry", "pos": "Flanker", "status": "Replacement"},
+            {"id": "M-ENG-21", "no": 21, "name": "Henry Pollock", "pos": "Back Row", "status": "Replacement"},
+            {"id": "M-ENG-22", "no": 22, "name": "Ben Spencer", "pos": "Scrum-half", "status": "Replacement"},
+            {"id": "M-ENG-25", "no": 23, "name": "Fin Smith", "pos": "Fly-half", "status": "Replacement"}
+          ]
+        }
+      ]
+    },
+    {
+      "home": "Wales",
+      "away": "France",
+      "date": "2026-02-15",
+      "teams": [
+        {
+          "country": "Wales",
+          "players": [
+            {"id": "M-WAL-17", "no": 1, "name": "Rhys Carre", "pos": "Prop", "status": "Starter"},
+            {"id": "M-WAL-02", "no": 2, "name": "Dewi Lake", "pos": "Hooker", "status": "Starter"},
+            {"id": "M-WAL-18", "no": 3, "name": "Tomas Francis", "pos": "Prop", "status": "Starter"},
+            {"id": "M-WAL-04", "no": 4, "name": "Dafydd Jenkins", "pos": "Lock", "status": "Starter"},
+            {"id": "M-WAL-05", "no": 5, "name": "Adam Beard", "pos": "Lock", "status": "Starter"},
+            {"id": "M-WAL-08", "no": 6, "name": "Aaron Wainwright", "pos": "Flanker", "status": "Starter"},
+            {"id": "M-WAL-06", "no": 7, "name": "Alex Mann", "pos": "Flanker", "status": "Starter"},
+            {"id": "M-WAL-25", "no": 8, "name": "Olly Cracknell", "pos": "Number 8", "status": "Starter"},
+            {"id": "M-WAL-09", "no": 9, "name": "Tomos Williams", "pos": "Scrum-half", "status": "Starter"},
+            {"id": "M-WAL-10", "no": 10, "name": "Dan Edwards", "pos": "Fly-half", "status": "Starter"},
+            {"id": "M-WAL-11", "no": 11, "name": "Josh Adams", "pos": "Wing", "status": "Starter"},
+            {"id": "M-WAL-24", "no": 12, "name": "Joe Hawkins", "pos": "Centre", "status": "Starter"},
+            {"id": "M-WAL-13", "no": 13, "name": "Eddie James", "pos": "Centre", "status": "Starter"},
+            {"id": "M-WAL-14", "no": 14, "name": "Ellis Mee", "pos": "Wing", "status": "Starter"},
+            {"id": "M-WAL-15", "no": 15, "name": "Louis Rees-Zammit", "pos": "Fullback", "status": "Starter"},
+            {"id": "M-WAL-26", "no": 16, "name": "Ryan Elias", "pos": "Hooker", "status": "Replacement"},
+            {"id": "M-WAL-01", "no": 17, "name": "Nicky Smith", "pos": "Prop", "status": "Replacement"},
+            {"id": "M-WAL-03", "no": 18, "name": "Archie Griffin", "pos": "Prop", "status": "Replacement"},
+            {"id": "M-WAL-19", "no": 19, "name": "Ben Carter", "pos": "Lock", "status": "Replacement"},
+            {"id": "M-WAL-20", "no": 20, "name": "Taine Plumtree", "pos": "Back Row", "status": "Replacement"},
+            {"id": "M-WAL-22", "no": 22, "name": "Kieran Hardy", "pos": "Scrum-half", "status": "Replacement"},
+            {"id": "M-WAL-27", "no": 23, "name": "Jarrod Evans", "pos": "Fly-half", "status": "Replacement"},
+            {"id": "M-WAL-23", "no": 23, "name": "Mason Grady", "pos": "Utility Back", "status": "Replacement"}
+          ]
+        },
+        {
+          "country": "France",
+          "players": [
+            {"id": "M-FRA-01", "no": 1, "name": "Jean-Baptiste Gros", "pos": "Prop", "status": "Starter"},
+            {"id": "M-FRA-02", "no": 2, "name": "Julien Marchand", "pos": "Hooker", "status": "Starter"},
+            {"id": "M-FRA-03", "no": 3, "name": "Dorian Aldegheri", "pos": "Prop", "status": "Starter"},
+            {"id": "M-FRA-04", "no": 4, "name": "Charles Ollivon", "pos": "Lock", "status": "Starter"},
+            {"id": "M-FRA-05", "no": 5, "name": "Mickaël Guillard", "pos": "Lock", "status": "Starter"},
+            {"id": "M-FRA-06", "no": 6, "name": "François Cros", "pos": "Flanker", "status": "Starter"},
+            {"id": "M-FRA-07", "no": 7, "name": "Oscar Jégou", "pos": "Flanker", "status": "Starter"},
+            {"id": "M-FRA-08", "no": 8, "name": "Anthony Jelonch", "pos": "Number 8", "status": "Starter"},
+            {"id": "M-FRA-09", "no": 9, "name": "Antoine Dupont", "pos": "Scrum-half", "status": "Starter"},
+            {"id": "M-FRA-10", "no": 10, "name": "Matthieu Jalibert", "pos": "Fly-half", "status": "Starter"},
+            {"id": "M-FRA-11", "no": 11, "name": "Louis Bielle-Biarrey", "pos": "Wing", "status": "Starter"},
+            {"id": "M-FRA-25", "no": 12, "name": "Fabien Brau-Boirie", "pos": "Centre", "status": "Starter"},
+            {"id": "M-FRA-24", "no": 13, "name": "Émilien Gailleton", "pos": "Centre", "status": "Starter"},
+            {"id": "M-FRA-14", "no": 14, "name": "Théo Attissogbe", "pos": "Wing", "status": "Starter"},
+            {"id": "M-FRA-15", "no": 15, "name": "Thomas Ramos", "pos": "Fullback", "status": "Starter"},
+            {"id": "M-FRA-26", "no": 16, "name": "Maxime Lamothe", "pos": "Hooker", "status": "Replacement"},
+            {"id": "M-FRA-17", "no": 17, "name": "Rodrigue Neti", "pos": "Prop", "status": "Replacement"},
+            {"id": "M-FRA-18", "no": 18, "name": "Régis Montagne", "pos": "Prop", "status": "Replacement"},
+            {"id": "M-FRA-27", "no": 19, "name": "Thibaud Flament", "pos": "Lock", "status": "Replacement"},
+            {"id": "M-FRA-20", "no": 20, "name": "Emmanuel Meafou", "pos": "Lock", "status": "Replacement"},
+            {"id": "M-FRA-21", "no": 21, "name": "Lenni Nouchi", "pos": "Back Row", "status": "Replacement"},
+            {"id": "M-FRA-22", "no": 22, "name": "Baptiste Serin", "pos": "Scrum-half", "status": "Replacement"},
+            {"id": "M-FRA-28", "no": 23, "name": "Noah Nene", "pos": "Wing", "status": "Replacement"}
+          ]
+        }
+      ]
+    }
+  ]
+}

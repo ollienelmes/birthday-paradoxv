@@ -1,0 +1,40 @@
+<div class="container">
+  {% for game in include.round_data.games %}
+    <section class="game-section">
+      <h2>{{ game.home }} vs {{ game.away }}</h2>
+      <p><strong>Match Date:</strong> {{ game.date }}</p>
+
+      <div class="teams-container" style="display: flex; gap: 20px;">
+        {% for team in game.teams %}
+          <div class="team-list">
+            <h3>{{ team.country }}</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>No.</th>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Birthday</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for player in team.players %}
+                {% assign player_details = site.data.players.players | where: "id", player.id | first %}
+                  <tr>
+                    <td class="player-no">{{ player.no }}</td>
+                    <td class="player-name">{{ player.name }}</td>
+                    <td>{{ player.pos }}</td>
+                    <td>{{ player_details.birthday }}</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+    <hr>
+  {% endfor %}
+</div>
+
+<script src="{{ '/assets/js/match.js' | relative_url }}" defer></script>

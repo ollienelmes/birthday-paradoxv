@@ -1,0 +1,118 @@
+@import "variables";
+
+body {
+  font-family: var(--font-main);
+  line-height: 1.6;
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+// 3. Typography
+h1 {
+  color: var(--primary-blue);
+  text-align: center;
+  border-bottom: 3px solid var(--primary-blue);
+  padding-bottom: 10px;
+}
+
+h2 {
+  background: var(--primary-blue);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+// 4. Game Layout (The Flex Container)
+.game-section {
+  margin-bottom: 50px;
+  
+  .teams-container {
+    display: flex;
+    flex-wrap: wrap; // Responsive fallback
+    gap: 30px;
+    justify-content: space-between;
+  }
+}
+
+// 5. Team Tables
+.team-list {
+  flex: 1;
+  min-width: 300px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  h3 {
+    margin-top: 0;
+    color: var(--primary-blue);
+    border-left: 5px solid var(--accent-gold);
+    padding-left: 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+
+    th {
+      text-align: left;
+      background: #eee;
+      padding: 8px;
+    }
+
+    td {
+      padding: 8px;
+      border-bottom: 1px solid var(--border-color);
+    }
+  }
+}
+
+.citation-link {
+  color: $primary-blue;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: auto;
+  display: block;
+  width: fit-content;
+  
+  &:hover {
+    color: $accent-gold;
+  }
+}
+
+// 6. Paradox Styling (The logic we'll use later)
+.is-paradox {
+  background-color: var(--paradox-bg) !important;
+  font-weight: bold;
+}
+
+.skip-link {
+  /* Move it off-screen by default */
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: #000; /* Use a high-contrast color */
+  color: #fff;
+  padding: 10px 20px;
+  z-index: 9999;
+  text-decoration: none;
+  font-weight: bold;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  /* Bring it into view only when focused */
+  top: 0;
+  outline: 3px solid #ffbf47; /* Standard accessibility 'gold' outline */
+  outline-offset: 0;
+}

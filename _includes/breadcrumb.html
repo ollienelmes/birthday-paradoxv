@@ -1,0 +1,41 @@
+<div id="breadcrumbs">
+  <a href="{{ '/' | relative_url }}">Home</a>
+
+  {% assign nav_items = "" | split: "," %}
+  {% for item in site.data.navigation %}
+    {% assign entry = item.title | append: ":::" | append: item.url %}
+    {% assign nav_items = nav_items | push: entry %}
+    
+    {% for child in item.children %}
+      {% assign entry = child.title | append: ":::" | append: child.url %}
+      {% assign nav_items = nav_items | push: entry %}
+      
+      {% for grandchild in child.children %}
+        {% assign entry = grandchild.title | append: ":::" | append: grandchild.url %}
+        {% assign nav_items = nav_items | push: entry %}
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+
+  {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+  {% assign current_path = "" %}
+
+  {% for crumb in crumbs offset: 1 %}
+    {% assign current_path = current_path | append: '/' | append: crumb | append: '/' | replace: '//', '/' %}
+    
+    {% if forloop.last %}
+      / {{ page.title }}
+    {% else %}
+      {% assign display_name = crumb | replace:'-',' ' | capitalize %}
+      {% for nav_entry in nav_items %}
+        {% assign parts = nav_entry | split: ":::" %}
+        {% if parts[1] == current_path %}
+          {% assign display_name = parts[0] %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+      / <a href="{{ current_path | relative_url }}">{{ display_name }}</a>
+    {% endif %}
+  {% endfor %}
+</div>
