@@ -10,10 +10,12 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.4.1"
 
 
-gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-seo-tag" # Highly recommended for your meta tags
+  gem "jekyll-sass-converter", "~> 2.0" # Better Sass support
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
