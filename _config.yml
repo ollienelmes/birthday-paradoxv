@@ -21,8 +21,8 @@
 title: Birthday ParadoXV
 description:
   A real world illustration of the Birthday Paradox using Rugby.
-baseurl: "/birthday-paradoxv" # the subpath of your site, e.g. /blog
-url: "https://ollie.nelmes.co" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://analytics.ollie.nelmes.co" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
