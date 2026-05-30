@@ -2,7 +2,7 @@
 layout: default
 title: Round 3
 description: Round 3
-permalink: /2026/w6n/r3
+permalink: /2026/w6n/r3/
 ---
 
 {% assign current_round = site.data['2026']['w6n']['round_3'] %}
