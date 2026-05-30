@@ -170,7 +170,7 @@
             "home_team"     : "SCO",
             "away_team"     : "ENG",
             "home_matches"  : 1,
-            "away_matches"  : 0
+            "away_matches"  : 1
         },
         {
             "tournament"    : "w6n",
@@ -196,7 +196,7 @@
             "date"          : "2026-04-25",
             "home_team"     : "ENG",
             "away_team"     : "WAL",
-            "home_matches"  : 0,
+            "home_matches"  : 1,
             "away_matches"  : 1
         },
         {
@@ -224,7 +224,7 @@
             "home_team"     : "ITA",
             "away_team"     : "ENG",
             "home_matches"  : 0,
-            "away_matches"  : 1
+            "away_matches"  : 2
         },
         {
             "tournament"    : "w6n",
@@ -269,7 +269,7 @@
             "home_team"     : "FRA",
             "away_team"     : "ENG",
             "home_matches"  : 0,
-            "away_matches"  : 0
+            "away_matches"  : 1
         }
     ]
 }

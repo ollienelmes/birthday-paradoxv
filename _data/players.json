@@ -209,7 +209,7 @@
     { "id": "W-ENG-10", "name": "Maud Muir", "birthday": "12/07/2001" },
     { "id": "W-ENG-11", "name": "Christiana Balogun", "birthday": "02/10/1997" },
     { "id": "W-ENG-12", "name": "Lilli Ives Campion", "birthday": "10/10/2003" },
-    { "id": "W-ENG-13", "name": "Demelza Short", "birthday": "" },
+    { "id": "W-ENG-13", "name": "Demelza Short", "birthday": "02/10/2006" },
     { "id": "W-ENG-14", "name": "Morwenna Talling", "birthday": "05/08/2002" },
     { "id": "W-ENG-15", "name": "Jodie Verghese", "birthday": "09/01/2003" },
     { "id": "W-ENG-16", "name": "Abi Burton", "birthday": "09/03/2000" },
@@ -309,6 +309,7 @@
     { "id": "W-IRE-34", "name": "Niamh Gallagher", "birthday": "22/09/2005" },
     { "id": "W-IRE-35", "name": "Alana McInerney", "birthday": "22/06/2001" },
     { "id": "W-IRE-36", "name": "Robyn O'Connor", "birthday": "15/07/2005" },
+    { "id": "W-IRE-37", "name": "Katie Whelan", "birthday": "27/02/2003" },
 
     { "id": "W-ITA-01", "name": "Chiara Cheli", "birthday": "11/10/2005" },
     { "id": "W-ITA-02", "name": "Désirée Spinelli", "birthday": "28/04/2005" },
@@ -350,7 +351,7 @@
     { "id": "W-SCO-01", "name": "Elis Martin", "birthday": "23/05/1999" },
     { "id": "W-SCO-02", "name": "Aila Ronald", "birthday": "18/04/2004" },
     { "id": "W-SCO-03", "name": "Lana Skeldon", "birthday": "18/10/1993" },
-    { "id": "W-SCO-04", "name": "Aicha Sutcliffe", "birthday": "" },
+    { "id": "W-SCO-04", "name": "Aicha Sutcliffe", "birthday": "02/10/2004" },
     { "id": "W-SCO-05", "name": "Leah Bartlett", "birthday": "28/08/1998" },
     { "id": "W-SCO-06", "name": "Elliann Clarke", "birthday": "16/02/2001" },
     { "id": "W-SCO-07", "name": "Poppy Fletcher", "birthday": "" },
@@ -425,8 +426,9 @@
     { "id": "W-WAL-34", "name": "Kelsie Webster", "birthday": "" },
     { "id": "W-WAL-35", "name": "Jasmine Joyce", "birthday": "09/10/1995" },
     { "id": "W-WAL-36", "name": "Lisa Neumann", "birthday": "23/12/1993" },
-    { "id": "W-WAL-37", "name": "Nikita Prothero", "birthday": "" },
+    { "id": "W-WAL-37", "name": "Nikita Prothero", "birthday": "24/04/2002" },
     { "id": "W-WAL-38", "name": "Seren Singleton", "birthday": "11/03/2003" },
-    { "id": "W-WAL-39", "name": "Catherine Richards", "birthday": "21/10/2000" }
+    { "id": "W-WAL-39", "name": "Catherine Richards", "birthday": "21/10/2000" },
+    { "id": "W-WAL-40", "name": "Freya Bell", "birthday": "26/10/2004" }
   ]
 }
