@@ -1,0 +1,196 @@
+{
+  "tournament": "2026 Women's Six Nations",
+  "round": 2,
+  "date": "2026-04-18",
+  "games": [
+    {
+      "home": "Scotland",
+      "away": "England",
+      "date": "2026-04-18",
+      "teams": [
+        {
+          "country": "Scotland",
+          "players": [
+            { "id": "W-SCO-05", "no": 1, "name": "Leah Bartlett", "pos": "Prop", "status": "Starter" },
+            { "id": "W-SCO-03", "no": 2, "name": "Lana Skeldon", "pos": "Hooker", "status": "Starter" },
+            { "id": "W-SCO-06", "no": 3, "name": "Elliann Clarke", "pos": "Prop", "status": "Starter" },
+            { "id": "W-SCO-13", "no": 4, "name": "Hollie Cunningham", "pos": "Lock", "status": "Starter" },
+            { "id": "W-SCO-16", "no": 5, "name": "Emma Wassell", "pos": "Lock", "status": "Starter" },
+            { "id": "W-SCO-17", "no": 6, "name": "Rachel Malcolm", "pos": "Flanker", "status": "Starter" },
+            { "id": "W-SCO-21", "no": 7, "name": "Alex Stewart", "pos": "Flanker", "status": "Starter" },
+            { "id": "W-SCO-19", "no": 8, "name": "Emily Coubrough", "pos": "Number 8", "status": "Starter" },
+            { "id": "W-SCO-22", "no": 9, "name": "Leia Brebner-Holden", "pos": "Scrum-half", "status": "Starter" },
+            { "id": "W-SCO-26", "no": 10, "name": "Helen Nelson", "pos": "Fly-half", "status": "Starter" },
+            { "id": "W-SCO-32", "no": 11, "name": "Shona Campbell", "pos": "Wing", "status": "Starter" },
+            { "id": "W-SCO-30", "no": 12, "name": "Meryl Smith", "pos": "Centre", "status": "Starter" },
+            { "id": "W-SCO-31", "no": 13, "name": "Evie Wills", "pos": "Centre", "status": "Starter" },
+            { "id": "W-SCO-34", "no": 14, "name": "Rhona Lloyd", "pos": "Wing", "status": "Starter" },
+            { "id": "W-SCO-36", "no": 15, "name": "Chloe Rollie", "pos": "Fullback", "status": "Starter" },
+            { "id": "W-SCO-01", "no": 16, "name": "Elis Martin", "pos": "Hooker", "status": "Replacement" },
+            { "id": "W-SCO-39", "no": 17, "name": "Demi Swann", "pos": "Prop", "status": "Replacement" },
+            { "id": "W-SCO-08", "no": 18, "name": "Molly Poolman", "pos": "Prop", "status": "Replacement" },
+            { "id": "W-SCO-11", "no": 19, "name": "Holland Bogan", "pos": "Lock", "status": "Replacement" },
+            { "id": "W-SCO-18", "no": 20, "name": "Rachel McLachlan", "pos": "Back Row", "status": "Replacement" },
+            { "id": "W-SCO-24", "no": 21, "name": "Rianna Darroch", "pos": "Scrum-half", "status": "Replacement" },
+            { "id": "W-SCO-37", "no": 22, "name": "Lucia Scott", "pos": "Utility Back", "status": "Replacement" },
+            { "id": "W-SCO-35", "no": 23, "name": "Francesca McGhie", "pos": "Utility Back", "status": "Replacement" }
+          ]
+        },
+        {
+          "country": "England",
+          "players": [
+            { "id": "W-ENG-06", "no": 1, "name": "Mackenzie Carson", "pos": "Prop", "status": "Starter" },
+            { "id": "W-ENG-02", "no": 2, "name": "Amy Cokayne", "pos": "Hooker", "status": "Starter" },
+            { "id": "W-ENG-04", "no": 3, "name": "Sarah Bern", "pos": "Prop", "status": "Starter" },
+            { "id": "W-ENG-16", "no": 4, "name": "Abi Burton", "pos": "Lock", "status": "Starter" },
+            { "id": "W-ENG-39", "no": 5, "name": "Delaney Burns", "pos": "Lock", "status": "Starter" },
+            { "id": "W-ENG-19", "no": 6, "name": "Sadia Kabeya", "pos": "Flanker", "status": "Starter" },
+            { "id": "W-ENG-22", "no": 7, "name": "Marlie Packer", "pos": "Flanker", "status": "Starter" },
+            { "id": "W-ENG-17", "no": 8, "name": "Maddie Feaunati", "pos": "Number 8", "status": "Starter" },
+            { "id": "W-ENG-24", "no": 9, "name": "Lucy Packer", "pos": "Scrum-half", "status": "Starter" },
+            { "id": "W-ENG-26", "no": 10, "name": "Holly Aitchison", "pos": "Fly-half", "status": "Starter" },
+            { "id": "W-ENG-34", "no": 11, "name": "Claudia Moloney-MacDonald", "pos": "Wing", "status": "Starter" },
+            { "id": "W-ENG-31", "no": 12, "name": "Helena Rowland", "pos": "Centre", "status": "Starter" },
+            { "id": "W-ENG-29", "no": 13, "name": "Megan Jones", "pos": "Centre", "status": "Starter" },
+            { "id": "W-ENG-33", "no": 14, "name": "Millie David", "pos": "Wing", "status": "Starter" },
+            { "id": "W-ENG-37", "no": 15, "name": "Ellie Kildunne", "pos": "Fullback", "status": "Starter" },
+            { "id": "W-ENG-03", "no": 16, "name": "Connie Powell", "pos": "Hooker", "status": "Replacement" },
+            { "id": "W-ENG-07", "no": 17, "name": "Kelsey Clifford", "pos": "Prop", "status": "Replacement" },
+            { "id": "W-ENG-10", "no": 18, "name": "Maud Muir", "pos": "Prop", "status": "Replacement" },
+            { "id": "W-ENG-20", "no": 19, "name": "Haineala Lutui", "pos": "Lock", "status": "Replacement" },
+            { "id": "W-ENG-13", "no": 20, "name": "Demelza Short", "pos": "Back Row", "status": "Replacement" },
+            { "id": "W-ENG-25", "no": 21, "name": "Flo Robinson", "pos": "Scrum-half", "status": "Replacement" },
+            { "id": "W-ENG-27", "no": 22, "name": "Zoe Harrison", "pos": "Fly-half", "status": "Replacement" },
+            { "id": "W-ENG-38", "no": 23, "name": "Emma Sing", "pos": "Utility Back", "status": "Replacement" }
+          ]
+        }
+      ]
+    },
+    {
+      "home": "Wales",
+      "away": "France",
+      "date": "2026-04-18",
+      "teams": [
+        {
+          "country": "Wales",
+          "players": [
+            { "id": "W-WAL-08", "no": 1, "name": "Gwenllian Pyrs", "pos": "Prop", "status": "Starter" },
+            { "id": "W-WAL-01", "no": 2, "name": "Kelsey Jones", "pos": "Hooker", "status": "Starter" },
+            { "id": "W-WAL-11", "no": 3, "name": "Sisilia Tuipulotu", "pos": "Prop", "status": "Starter" },
+            { "id": "W-WAL-18", "no": 4, "name": "Jorja Aiono", "pos": "Lock", "status": "Starter" },
+            { "id": "W-WAL-12", "no": 5, "name": "Gwen Crabb", "pos": "Lock", "status": "Starter" },
+            { "id": "W-WAL-21", "no": 6, "name": "Bethan Lewis", "pos": "Flanker", "status": "Starter" },
+            { "id": "W-WAL-17", "no": 7, "name": "Kate Williams", "pos": "Flanker", "status": "Starter" },
+            { "id": "W-WAL-20", "no": 8, "name": "Bryonie King", "pos": "Number 8", "status": "Starter" },
+            { "id": "W-WAL-26", "no": 9, "name": "Seren Lockwood", "pos": "Scrum-half", "status": "Starter" },
+            { "id": "W-WAL-27", "no": 10, "name": "Lleucu George", "pos": "Fly-half", "status": "Starter" },
+            { "id": "W-WAL-35", "no": 11, "name": "Jasmine Joyce", "pos": "Wing", "status": "Starter" },
+            { "id": "W-WAL-32", "no": 12, "name": "Courtney Keight", "pos": "Centre", "status": "Starter" },
+            { "id": "W-WAL-30", "no": 13, "name": "Hannah Dallavalle", "pos": "Centre", "status": "Starter" },
+            { "id": "W-WAL-38", "no": 14, "name": "Seren Singleton", "pos": "Wing", "status": "Starter" },
+            { "id": "W-WAL-28", "no": 15, "name": "Kayleigh Powell", "pos": "Fullback", "status": "Starter" },
+            { "id": "W-WAL-03", "no": 16, "name": "Molly Reardon", "pos": "Hooker", "status": "Replacement" },
+            { "id": "W-WAL-05", "no": 17, "name": "Maisie Davies", "pos": "Prop", "status": "Replacement" },
+            { "id": "W-WAL-09", "no": 18, "name": "Donna Rose", "pos": "Prop", "status": "Replacement" },
+            { "id": "W-WAL-13", "no": 19, "name": "Natalia John", "pos": "Lock", "status": "Replacement" },
+            { "id": "W-WAL-22", "no": 20, "name": "Branwen Metcalfe", "pos": "Back Row", "status": "Replacement" },
+            { "id": "W-WAL-19", "no": 21, "name": "Georgia Evans", "pos": "Scrum-half", "status": "Replacement" },
+            { "id": "W-WAL-24", "no": 22, "name": "Keira Bevan", "pos": "Fly-half", "status": "Replacement" },
+            { "id": "W-WAL-31", "no": 23, "name": "Jenna De Vera", "pos": "Utility Back", "status": "Replacement" }
+          ]
+        },
+        {
+          "country": "France",
+          "players": [
+            { "id": "W-FRA-08", "no": 1, "name": "Ambre Mwayembe", "pos": "Prop", "status": "Starter" },
+            { "id": "W-FRA-01", "no": 2, "name": "Mathilde Lazarko", "pos": "Hooker", "status": "Starter" },
+            { "id": "W-FRA-07", "no": 3, "name": "Assia Khalfaoui", "pos": "Prop", "status": "Starter" },
+            { "id": "W-FRA-13", "no": 4, "name": "Kiara Zago", "pos": "Lock", "status": "Starter" },
+            { "id": "W-FRA-10", "no": 5, "name": "Madoussou Fall Raclot", "pos": "Lock", "status": "Starter" },
+            { "id": "W-FRA-14", "no": 6, "name": "Axelle Berthoumieu", "pos": "Flanker", "status": "Starter" },
+            { "id": "W-FRA-11", "no": 7, "name": "Manaé Feleu", "pos": "Flanker", "status": "Starter" },
+            { "id": "W-FRA-15", "no": 8, "name": "Léa Champon", "pos": "Number 8", "status": "Starter" },
+            { "id": "W-FRA-19", "no": 9, "name": "Pauline Bourdon Sansus", "pos": "Scrum-half", "status": "Starter" },
+            { "id": "W-FRA-21", "no": 10, "name": "Carla Arbez", "pos": "Fly-half", "status": "Starter" },
+            { "id": "W-FRA-27", "no": 11, "name": "Léa Murie", "pos": "Wing", "status": "Starter" },
+            { "id": "W-FRA-23", "no": 12, "name": "Teani Feleu", "pos": "Centre", "status": "Starter" },
+            { "id": "W-FRA-28", "no": 13, "name": "Aubane Rousset", "pos": "Centre", "status": "Starter" },
+            { "id": "W-FRA-32", "no": 14, "name": "Anaïs Grando", "pos": "Wing", "status": "Starter" },
+            { "id": "W-FRA-29", "no": 15, "name": "Pauline Barrat", "pos": "Fullback", "status": "Starter" },
+            { "id": "W-FRA-02", "no": 16, "name": "Élisa Riffonneau", "pos": "Hooker", "status": "Replacement" },
+            { "id": "W-FRA-05", "no": 17, "name": "Yllana Brosseau", "pos": "Prop", "status": "Replacement" },
+            { "id": "W-FRA-03", "no": 18, "name": "Rose Bernadou", "pos": "Prop", "status": "Replacement" },
+            { "id": "W-FRA-09", "no": 19, "name": "Cloé Correa", "pos": "Lock", "status": "Replacement" },
+            { "id": "W-FRA-12", "no": 20, "name": "Siobhan Soqeta", "pos": "Back Row", "status": "Replacement" },
+            { "id": "W-FRA-18", "no": 21, "name": "Charlotte Escudero", "pos": "Back Row", "status": "Replacement" },
+            { "id": "W-FRA-20", "no": 22, "name": "Alexandra Chambon", "pos": "Scrum-half", "status": "Replacement" },
+            { "id": "W-FRA-22", "no": 23, "name": "Lina Queyroi", "pos": "Utility Back", "status": "Replacement" }
+          ]
+        }
+      ]
+    },
+    {
+      "home": "Ireland",
+      "away": "Italy",
+      "date": "2026-04-18",
+      "teams": [
+        {
+          "country": "Ireland",
+          "players": [
+            { "id": "W-IRE-08", "no": 1, "name": "Ellena Perry", "pos": "Prop", "status": "Starter" },
+            { "id": "W-IRE-03", "no": 2, "name": "Cliodhna Moloney-MacDonald", "pos": "Hooker", "status": "Starter" },
+            { "id": "W-IRE-05", "no": 3, "name": "Linda Djougang", "pos": "Prop", "status": "Starter" },
+            { "id": "W-IRE-12", "no": 4, "name": "Fiona Tuite", "pos": "Lock", "status": "Starter" },
+            { "id": "W-IRE-09", "no": 5, "name": "Ruth Campbell", "pos": "Lock", "status": "Starter" },
+            { "id": "W-IRE-16", "no": 6, "name": "Brittany Hogan", "pos": "Flanker", "status": "Starter" },
+            { "id": "W-IRE-17", "no": 7, "name": "Erin King", "pos": "Flanker", "status": "Starter" },
+            { "id": "W-IRE-20", "no": 8, "name": "Aoife Wafer", "pos": "Number 8", "status": "Starter" },
+            { "id": "W-IRE-22", "no": 9, "name": "Emily Lane", "pos": "Scrum-half", "status": "Starter" },
+            { "id": "W-IRE-26", "no": 10, "name": "Dannah O'Brien", "pos": "Fly-half", "status": "Starter" },
+            { "id": "W-IRE-36", "no": 11, "name": "Robyn O'Connor", "pos": "Wing", "status": "Starter" },
+            { "id": "W-IRE-30", "no": 12, "name": "Nancy McGillivray", "pos": "Centre", "status": "Starter" },
+            { "id": "W-IRE-28", "no": 13, "name": "Aoife Dalton", "pos": "Centre", "status": "Starter" },
+            { "id": "W-IRE-33", "no": 14, "name": "Béibhinn Parsons", "pos": "Wing", "status": "Starter" },
+            { "id": "W-IRE-25", "no": 15, "name": "Stacey Flood", "pos": "Fullback", "status": "Starter" },
+            { "id": "W-IRE-02", "no": 16, "name": "Neve Jones", "pos": "Hooker", "status": "Replacement" },
+            { "id": "W-IRE-07", "no": 17, "name": "Niamh O'Dowd", "pos": "Prop", "status": "Replacement" },
+            { "id": "W-IRE-06", "no": 18, "name": "Sadhbh McGrath", "pos": "Prop", "status": "Replacement" },
+            { "id": "W-IRE-21", "no": 19, "name": "Dorothy Wall", "pos": "Lock", "status": "Replacement" },
+            { "id": "W-IRE-11", "no": 20, "name": "Sam Monaghan", "pos": "Back Row", "status": "Replacement" },
+            { "id": "W-IRE-37", "no": 21, "name": "Katie Whelan", "pos": "Scrum-half", "status": "Replacement" },
+            { "id": "W-IRE-29", "no": 22, "name": "Eve Higgins", "pos": "Fly-half", "status": "Replacement" },
+            { "id": "W-IRE-32", "no": 23, "name": "Anna McGann", "pos": "Utility Back", "status": "Replacement" }
+          ]
+        },
+        {
+          "country": "Italy",
+          "players": [
+            { "id": "W-ITA-07", "no": 1, "name": "Silvia Turani", "pos": "Prop", "status": "Starter" },
+            { "id": "W-ITA-03", "no": 2, "name": "Vittoria Vecchini", "pos": "Hooker", "status": "Starter" },
+            { "id": "W-ITA-08", "no": 3, "name": "Vittoria Zanette", "pos": "Prop", "status": "Starter" },
+            { "id": "W-ITA-12", "no": 4, "name": "Valeria Fedrighi", "pos": "Lock", "status": "Starter" },
+            { "id": "W-ITA-11", "no": 5, "name": "Giordana Duca", "pos": "Lock", "status": "Starter" },
+            { "id": "W-ITA-17", "no": 6, "name": "Francesca Sgorbini", "pos": "Flanker", "status": "Starter" },
+            { "id": "W-ITA-16", "no": 7, "name": "Alissa Ranuccini", "pos": "Flanker", "status": "Starter" },
+            { "id": "W-ITA-15", "no": 8, "name": "Elisa Giordano", "pos": "Number 8", "status": "Starter" },
+            { "id": "W-ITA-21", "no": 9, "name": "Sofia Stefan", "pos": "Scrum-half", "status": "Starter" },
+            { "id": "W-ITA-22", "no": 10, "name": "Veronica Madia", "pos": "Fly-half", "status": "Starter" },
+            { "id": "W-ITA-27", "no": 11, "name": "Alyssa D'Incà", "pos": "Wing", "status": "Starter" },
+            { "id": "W-ITA-28", "no": 12, "name": "Sara Mannini", "pos": "Centre", "status": "Starter" },
+            { "id": "W-ITA-29", "no": 13, "name": "Michela Sillari", "pos": "Centre", "status": "Starter" },
+            { "id": "W-ITA-32", "no": 14, "name": "Aura Muzzo", "pos": "Wing", "status": "Starter" },
+            { "id": "W-ITA-34", "no": 15, "name": "Vittoria Ostuni Minuzzi", "pos": "Fullback", "status": "Starter" },
+            { "id": "W-ITA-01", "no": 16, "name": "Chiara Cheli", "pos": "Hooker", "status": "Replacement" },
+            { "id": "W-ITA-05", "no": 17, "name": "Gaia Maris", "pos": "Prop", "status": "Replacement" },
+            { "id": "W-ITA-06", "no": 18, "name": "Alessia Pilani", "pos": "Prop", "status": "Replacement" },
+            { "id": "W-ITA-13", "no": 19, "name": "Alessandra Frangipani", "pos": "Lock", "status": "Replacement" },
+            { "id": "W-ITA-35", "no": 20, "name": "Margherita Tonellotto", "pos": "Back Row", "status": "Replacement" },
+            { "id": "W-ITA-19", "no": 21, "name": "Alia Bitonci", "pos": "Scrum-half", "status": "Replacement" },
+            { "id": "W-ITA-23", "no": 22, "name": "Emma Stevanin", "pos": "Fly-half", "status": "Replacement" },
+            { "id": "W-ITA-30", "no": 23, "name": "Francesca Granzotto", "pos": "Utility Back", "status": "Replacement" }
+          ]
+        }
+      ]
+    }
+  ]
+}

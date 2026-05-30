@@ -135,12 +135,13 @@ $skip-text: #000;
     display: none;
     position: absolute;
     top: 0;
-    left: 100%;
+    right: 100%;
+    left: auto;
     background: $sub-dropdown-bg;
     min-width: 200px;
     list-style: none;
     padding: 0;
-    border-left: 3px solid $nav-hover;
+    border-right: 3px solid $nav-hover;
 
     & > a::after {
       content: ' ▶';

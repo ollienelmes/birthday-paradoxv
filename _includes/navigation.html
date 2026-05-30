@@ -17,9 +17,6 @@
         {% if item.children %}
             <ul class="dropdown level-1">
             {% for child in item.children %}
-                
-                {% if child.title %}
-                {% comment %} Standard case: Child has a name (e.g., Men's Six Nations) {% endcomment %}
                 <li class="nav-item {% if child.children %}has-dropdown{% endif %}">
                     <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
                     
@@ -31,16 +28,6 @@
                     </ul>
                     {% endif %}
                 </li>
-                {% elsif child.children %}
-                {% comment %} 
-                    The 'Anonymous' case: No title, but has children (your Rounds).
-                    We loop through these and put them directly into level-1.
-                {% endcomment %}
-                {% for grandchild in child.children %}
-                    <li><a href="{{ grandchild.url | relative_url }}">{{ grandchild.title }}</a></li>
-                {% endfor %}
-                {% endif %}
-
             {% endfor %}
             </ul>
         {% endif %}
